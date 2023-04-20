@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+input[type="search"] {
+    caret-color: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'bitbit';
+    src: url('/DNFBitBitOTF.otf') format('truetype');
+}
+
+body{
+    font-family: "bitbit";
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_bar{
+    display: flex;
+    margin: 0px;
+    padding: 0px 20px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.nav_text{
+    font-size: 18px;
+    margin: 0;
+}
+#addfriend{
+    width: 20px;
+}
+
+.image_container{
+    margin-left: 20px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.search_bar{
+    justify-content: center;
+    display: flex;
+    background-color: #03c75a;
+    border-radius: 18px;
+    margin: 20px 0px 20px;
+    width: 80%;
+    height: 40px;
+    align-items: center;
+}
+
+.search_window{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 90%;
+    border-radius: 18px;
+}
+
+.text_line{
+    border: none;
+    outline: none;
+    background-color: #03c75a;
+    width: 90%;
+    
+}
+
+.text_line[type="text"] {
+    font-family: 'bitbit';
+    caret-color: #FFFFFF;
+  }
+
+.custom_cursor {
+    display: flex;
+    margin-top: 3px;
+    animation: blink 1s infinite;
+    border-radius: 50%;
+    width: 1px;
+    height: 80%;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+
+button{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+button img{
+    fill: currentColor;
+    width: 28px;
+    height: 28px;
+}
