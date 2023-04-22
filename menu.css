@@ -12,9 +12,8 @@ input[type="search"] {
 }
 
 body{
+    margin: 0;
     font-family: "bitbit";
-    display: flex;
-    flex-direction: column;
 }
 
 .nav_bar{
@@ -39,9 +38,8 @@ body{
     margin-left: 20px;
 }
 
-
-
-.container{
+.search_bar_container{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
@@ -52,7 +50,7 @@ body{
     background-color: #03c75a;
     border-radius: 18px;
     margin: 20px 0px 20px;
-    width: 80%;
+    width: 90%;
     height: 40px;
     align-items: center;
 }
@@ -101,3 +99,56 @@ button img{
     width: 28px;
     height: 28px;
 }
+
+.profile_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.profile_img{
+    margin: 20px 20px 30px;
+    border: 1px groove rgba(0, 0, 0, 0.25);
+    border-radius: 30%;
+    width: 90px;
+    height: 90px;
+}
+
+.profile_name{
+    font-size: 20px;
+}
+
+.naver_img_box{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.naver_img{
+    margin: 20px 20px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 30%;
+    width: 70px;
+    height: 70px;
+}
+
+.channel_name{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_container{
+    display: gird;
+    grid-template-rows: repeat(4, 1fr);
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    display: grid;
+    background-color: #03c75a;
+}
+

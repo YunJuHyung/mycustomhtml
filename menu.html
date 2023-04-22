@@ -11,19 +11,45 @@
     <div class="nav_bar">
         <p class="nav_text">친구</p>
         <div class="image_container">
-            <img id="addfriend" src="/images/addfriend.png" alt="addfriendImg">
+            <img id="addfriend" src="/images/addfriend.jpg" alt="addfriendImg">
         </div>
     </div>
-    <div class="container">
+    <div class="search_bar_container">
         <div class="search_bar">
             <form  class="search_window" action="/search" method="get">
-                <input class="text_line" type="text" name="query" placeholder="">
+                <input list="friend_list" class="text_line" type="text" name="query" placeholder="Search">
+                <datalist id="friend_list">
+                    <option value="김또깡">
+                    <option value="김미진">
+                    <option value="김주한">
+                    <option value="이또깡">
+                    <option value="윤주형">
+                    <option value="조세영">         
+                </datalist>
                 <button type="submit">
                     <img src="/images/convers_glass2.png" alt="돋보기 아이콘">
                 </button>
               </form>
         </div>
     </div>
-    <hr class="divider">
+    <div class="profile_container">
+        <img class="profile_img" src="/images/Group 6.png" alt="person_img">
+        <div class="profile_name">Yoon Ju Hyung</div>
+    </div>
+    <hr class="cut_line">
+    <div class="channel_container">
+        <h2>channel</h2>
+        <div class="naver_img_box">
+            <img class="naver_img" src="/images/2네이버-N-로고.webp" alt="naver_img">
+            <div class="channel_name">NAVER</div>
+        </div>
+    </div>
+    <div class="footer_container">
+        <img class="Chat.img" src="/images/Chat.png" alt="Chat.img">
+        <img class="Chat.img" src="/images/Chat.png" alt="Chat.img">
+        <img class="Chat.img" src="/images/Chat.png" alt="Chat.img">
+        <img class="Chat.img" src="/images/Chat.png" alt="Chat.img">
+    </div>
+    
 </body>
 </html>
